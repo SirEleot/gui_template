@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+}
+body {
+  overflow: hidden;
+}
+html:lang(ge) body {
+  font-family: "BPG Arial Caps", sans-serif;
+}
+
+.app-bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+html:lang(ru) body {
+  font-family: "Roboto", sans-serif;
+}
+button, input {
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+}
+html:lang(ge) button, input {
+  font-family: "BPG Arial Caps", sans-serif;
+}
+html:lang(ru) button, input {
+  font-family: "Roboto", sans-serif;
+}
+#app {
+  height: 100vh;
+  max-width: 1920px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+.development{
+  background-image: url('https://cdn.hipwallpaper.com/i/94/27/jCd1Zi.jpg');
+  background-position: center;
+  background-size: cover;
+}
